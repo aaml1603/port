@@ -41,14 +41,22 @@ export function ProjectsSection() {
 
   const projects = [
     {
-      title: "Company Website - MasCarga Express",
+      title: "(Client Work) | Company Website - MasCarga Express",
       description:
         "A company website with nice ui/ux design, and backend implementation.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["React", "Next.js", "PostgreSQL", "Stripe", "Tailwindcss"],
+      image: "/mascarga.png",
+      tags: ["React", "Next.js", "PostgreSQL", "Tailwindcss"],
       category: "Website",
-      liveUrl: "https://mascargaexpress.com",
-      githubUrl: "https://github.com",
+      liveUrl: "https://mascargaexpress.com"
+    },
+    {
+      title: "(Personal Project) | Resume builder",
+      description:
+        "A job/work resume builder to display your skills, education for companies. ",
+      image: "/resume-builder.png",
+      tags: ["React", "Next.js", "PostgreSQL", "Tailwindcss"],
+      category: "Web App",
+      liveUrl: "https://v0-fork-of-resume-builder-nine.vercel.app/"
     }
   ]
 
@@ -93,11 +101,12 @@ export function ProjectsSection() {
             >
               <div className="relative h-48 overflow-hidden flex items-center justify-center">
                 <Image
-                  src="/mascarga.png"
+                  src={project.image}
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-500 hover:scale-105"
                 />
+                
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
