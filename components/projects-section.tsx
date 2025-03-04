@@ -57,7 +57,7 @@ export function ProjectsSection() {
       tags: ["React", "Next.js", "PostgreSQL", "Tailwindcss"],
       category: "Web App",
       liveUrl: "https://v0-fork-of-resume-builder-nine.vercel.app/"
-    }
+    },
     {
       title: "(Personal Web App) | AI Humanizer",
       description:
