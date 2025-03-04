@@ -58,6 +58,16 @@ export function ProjectsSection() {
       category: "Web App",
       liveUrl: "https://v0-fork-of-resume-builder-nine.vercel.app/"
     }
+    {
+      title: "(Personal Web App) | AI Humanizer",
+      description:
+        "This is a project I have been working on for a long time and probably will keep working on for a long time. It is intended to be a SAAS. It will bypass chatgpt detectors by re-writing text in a more human algorithm.",
+      image: "/humanize.png",
+      tags: ["React", "Next.js", "Python", "Tailwindcss", "MongoDB"],
+      category: "Web App",
+      liveUrl: "https://humanizer-dev.vercel.app/"
+    }
+
   ]
 
   const filteredProjects =
